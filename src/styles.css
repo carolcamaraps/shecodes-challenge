@@ -24,6 +24,10 @@ li {
   list-style: none;
 }
 
+.container {
+  position: relative;
+}
+
 .weather-app {
   border: 1px solid #dadde1;
   padding: 15px;
@@ -60,5 +64,7 @@ li {
 
 .bottom-text {
   font-size: 12px;
+  position: absolute;
+  left: 275px;
 }
 
